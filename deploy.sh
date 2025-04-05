@@ -20,8 +20,8 @@ git commit -m "GitHub Action 自动部署：$time"
 
 # # 如果发布到 https://<USERNAME>.github.io   -f 强制推送
 # git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git master
-git push -f git@gitee.com:muyaCode/VitePressNotes.git master:gh-pages # 发布到Gitee
-# git push -f git@github.com:muyaCode/VitePressNotes.git master:gh-pages # 发布到GitHub
+# git push -f git@gitee.com:muyaCode/VitePressNotes.git master:gh-pages # 发布到Gitee
+git push -f git@github.com:muyaCode/VitePressNotes.git master:gh-pages # 发布到GitHub
 
 # 退出到本项目根目录
 cd -
@@ -32,8 +32,8 @@ rm -rf docs/.vitepress/dist
 # echo "文档地址：https://muyacode.github.io/VitePressNotes/"
 
 # 格式化输出带颜色配置：https://www.shuzhiduo.com/A/D854N3mVzE/
-echo -e "Gitee仓库地址：\033[44;37m https://gitee.com/muyaCode/VitePressNotes/ \033[0m"
-echo -e "GiteePages文档地址：\033[47;30m https://muyacode.gitee.io/VitePressNotes/ \033[0m"
+# echo -e "Gitee仓库地址：\033[44;37m https://gitee.com/muyaCode/VitePressNotes/ \033[0m"
+# echo -e "GiteePages文档地址：\033[47;30m https://muyacode.gitee.io/VitePressNotes/ \033[0m"
 
-# echo -e "GitHub仓库地址：\033[44;37m https://github.com/muyaCode/VitePressNotes/ \033[0m"
-# echo -e "GitHubPages文档地址：\033[47;30m https://muyacode.github.io/VitePressNotes/ \033[0m"
+echo -e "GitHub仓库地址：\033[44;37m https://github.com/muyaCode/VitePressNotes/ \033[0m"
+echo -e "GitHubPages文档地址：\033[47;30m https://muyacode.github.io/VitePressNotes/ \033[0m"
