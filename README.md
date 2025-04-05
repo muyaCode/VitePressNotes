@@ -1,3 +1,3 @@
-# SoftwareDevPlanNotes
+# VitePressNotes
 
-软件开发计划笔记
+VitePress 笔记模板
